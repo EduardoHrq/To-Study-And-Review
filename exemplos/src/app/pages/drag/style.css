@@ -1,0 +1,9 @@
+.obj:hover {
+  cursor: grab;
+  scale: 1.1;
+}
+
+
+.obj:active {
+  scale: 0.7;
+}

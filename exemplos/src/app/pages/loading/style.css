@@ -1,0 +1,372 @@
+.objt {
+  width: 50px;
+  height: 50px;
+  background: #000;
+}
+
+@keyframes rodar {
+  from {
+    rotate: 0deg;
+  }
+
+  to {
+    rotate: 360deg;
+  }
+}
+
+#l1 {
+  animation: rodar infinite linear 2s;
+}
+
+#l2 {
+  box-shadow: inset 0 0 0 4px var(--indigo);
+  animation: rodar infinite linear 2s;
+}
+
+#l3 {
+  background: transparent;
+  border-radius: 50%;
+  border-left: 4px solid var(--indigo);
+  border-bottom: 4px solid var(--indigo);
+  animation: rodar infinite linear 2s;
+}
+
+#l4 {
+  background: transparent;
+  border-radius: 50%;
+  position: relative;
+  animation: rodar infinite linear 2s;
+}
+
+#l4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  border-radius: 25px 0 0 25px;
+  border: 4px solid var(--indigo);
+}
+
+#l4::after {
+  content: "";
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  background: #000;
+  border-radius: 50%;
+}
+
+#l5 {
+  background: transparent;
+  border-radius: 50%;
+  position: relative;
+  animation: rodar infinite linear 2s;
+}
+
+#l5::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  border-radius: 25px 0 0 25px;
+  border-top: 4px solid var(--indigo);
+}
+
+#l6 {
+  background: transparent;
+  border-radius: 50%;
+  position: relative;
+  animation: rodar infinite linear 2s;
+}
+
+#l6::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  border-radius: 25px 0 0 25px;
+  border-top: 4px solid var(--indigo);
+  border-left: 4px solid var(--indigo);
+  border-bottom: 4px solid var(--indigo);
+}
+
+#l7 {
+  width: 0;
+  height: 0;
+  background: transparent;
+
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #000;
+
+  position: relative;
+  animation: rodar infinite linear 2s;
+}
+
+
+
+#l1-1 {
+  animation: rodar infinite cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
+}
+
+#l2-1 {
+  box-shadow: inset 0 0 0 4px var(--indigo);
+  animation: rodar infinite cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
+}
+
+#l3-1 {
+  background: transparent;
+  border-radius: 50%;
+  border-left: 4px solid var(--indigo);
+  border-bottom: 4px solid var(--indigo);
+  animation: rodar infinite cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
+}
+
+#l4-1 {
+  background: transparent;
+  border-radius: 50%;
+  position: relative;
+  animation: rodar infinite cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
+}
+
+#l4-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  border-radius: 25px 0 0 25px;
+  border: 4px solid var(--indigo);
+}
+
+#l4-1::after {
+  content: "";
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  background: #000;
+  border-radius: 50%;
+}
+
+#l5-1 {
+  background: transparent;
+  border-radius: 50%;
+  position: relative;
+  animation: rodar infinite cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
+}
+
+#l5-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  border-radius: 25px 0 0 25px;
+  border-top: 4px solid var(--indigo);
+}
+
+#l6-1 {
+  background: transparent;
+  border-radius: 50%;
+  position: relative;
+  animation: rodar infinite cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
+}
+
+#l6-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  border-radius: 25px 0 0 25px;
+  border-top: 4px solid var(--indigo);
+  border-left: 4px solid var(--indigo);
+  border-bottom: 4px solid var(--indigo);
+}
+
+#l7-1 {
+  width: 0;
+  height: 0;
+  background: transparent;
+
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #000;
+
+  position: relative;
+  animation: rodar infinite cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
+}
+
+
+#l1-2 {
+  animation: rodar infinite ease-in-out 2s;
+}
+
+#l2-2 {
+  box-shadow: inset 0 0 0 4px var(--indigo);
+  animation: rodar infinite ease-in-out 2s;
+}
+
+#l3-2 {
+  background: transparent;
+  border-radius: 50%;
+  border-left: 4px solid var(--indigo);
+  border-bottom: 4px solid var(--indigo);
+  animation: rodar infinite ease-in-out 2s;
+}
+
+#l4-2 {
+  background: transparent;
+  border-radius: 50%;
+  position: relative;
+  animation: rodar infinite ease-in-out 2s;
+}
+
+#l4-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  border-radius: 25px 0 0 25px;
+  border: 4px solid var(--indigo);
+}
+
+#l4-2::after {
+  content: "";
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  background: #000;
+  border-radius: 50%;
+}
+
+#l5-2 {
+  background: transparent;
+  border-radius: 50%;
+  position: relative;
+  animation: rodar infinite ease-in-out 2s;
+}
+
+#l5-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  border-radius: 25px 0 0 25px;
+  border-top: 4px solid var(--indigo);
+}
+
+#l6-2 {
+  background: transparent;
+  border-radius: 50%;
+  position: relative;
+  animation: rodar infinite ease-in-out 2s;
+}
+
+#l6-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  border-radius: 25px 0 0 25px;
+  border-top: 4px solid var(--indigo);
+  border-left: 4px solid var(--indigo);
+  border-bottom: 4px solid var(--indigo);
+}
+
+#l7-2 {
+  width: 0;
+  height: 0;
+  background: transparent;
+
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #000;
+
+  position: relative;
+  animation: rodar infinite ease-in-out 2s;
+}
+
+@keyframes teste {
+
+  0% {
+    box-shadow: inset 0 0 0 0 var(--indigo);
+  }
+
+  100% {
+    box-shadow: inset 100px 0 0 0 var(--indigo);
+  }
+
+}
+
+#b1 {
+  width: 100px;
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+#b1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: teste infinite linear 2s;
+}
+
+@keyframes piscar {
+  from {
+    opacity: 1;
+    scale: 1;
+  }
+
+  to {
+    opacity: .5;
+    scale: 1.2;
+  }
+}
+
+#b2 {
+  border-radius: 50%;
+  animation: piscar infinite cubic-bezier(0.175, 0.885, 0.32, 1.275) .5s;
+}
+
+
+progress {
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #000;
+}
+
+progress::-webkit-progress-value {
+  background-color: var(--indigo);
+}

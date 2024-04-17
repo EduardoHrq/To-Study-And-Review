@@ -1,0 +1,12 @@
+.popup {
+  z-index: -1;
+  opacity: 0;
+}
+
+.areaPop {
+  scale: .2;
+}
+
+#sombra {
+  scale: .2;
+}

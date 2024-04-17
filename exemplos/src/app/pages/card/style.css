@@ -1,0 +1,28 @@
+.sct {
+  perspective: 60rem;
+
+}
+
+.area>div {
+  z-index: 1000;
+
+  transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.front {
+  transform: rotateY(0);
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.area:hover .front {
+  transform: rotateY(180deg);
+}
+
+.area:hover .back {
+  transform: rotateY(0);
+}
